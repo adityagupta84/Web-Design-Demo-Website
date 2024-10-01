@@ -1,0 +1,268 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /* what this does is ki i dont want scroll bar to hide krdega extar page ki length ke hisab se jo bhi hoga usko */ 
+}
+
+/* semantic tags mei direct css lgate hai */
+
+header{
+    background-color: rgb(54, 51, 51);
+    color: beige;
+    padding-top: 10px;
+    min-height: 80px;
+    /* this is for ki if text expand hora to ye bhi us hisab ye expand hoga */
+    border-bottom: #cf531d 5px solid;
+}
+
+header a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    color: beige;
+}
+
+ul{
+    padding: 0;
+    margin: 0;    
+}
+
+header li{
+    float: left ;
+    display: inline;
+    padding: 0px 30px;
+}
+
+header .current a
+{
+    color: #cf531d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cf531d;
+    font-weight: bold;
+} 
+
+header #branding{
+    float: left;
+    margin: 0;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+
+
+header .highlight{
+    color: #cf531d;
+}
+
+#showcase{
+    background: url(yo.jpg) no-repeat -300px -9px;
+    min-height: 430px;
+    color: beige;
+    text-align: center;
+    font-weight: 500px;
+    font-size:large;
+}
+
+#showcase h1{
+    margin-top: 115px;
+    font-size: 60px;
+}
+
+#showcase p{
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+#newsletter{
+    background-color: rgb(54, 51, 51);
+    color: beige;
+    padding: 20px 0px;
+    border-top: #cf531d 5px solid;
+    margin-bottom: 30px;
+    
+}
+
+#newsletter h1{
+    float: left;
+    font-size: 30px;
+}
+
+
+
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"]{
+    height: 40px;
+    width: 280px;
+}
+
+
+#newsletter button[type="submit"]{
+    height: 45px;
+    width: 100px;
+    background-color: #cf531d;
+    border: 0;
+}
+
+#boxes .box{
+    float: left;
+    width:29%;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#boxes .box img{
+    height: 230px;
+    
+}
+
+
+#foot{
+    background-color: rgb(54, 51, 51);
+    color:beige;
+    padding: 10px;
+    text-align: center;
+    font-size: large;   
+    margin-top: 50px;
+}
+
+
+
+#main article h2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+
+#main  p{
+    font-size: 20px;
+    
+}
+
+#sidebar p{
+    font-size: 20px;
+
+}
+
+
+#sidebar h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.dark{
+    padding: 5px 4px;
+    background-color:#cf531d;
+    color: black;
+    text-align: left;
+}
+
+
+article#col{
+    float: left;
+    width: 65%;
+}
+
+
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 3px;
+    border: 2px solid black;
+    
+    
+}
+
+aside#bar{
+    float: right;
+    width: 30%;
+    margin-top: 3px;
+    border: 2px solid black;
+    
+    
+}
+
+
+#yo p{
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+#yo li
+{
+    margin-top: 10px;
+    
+}
+
+aside#bar h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    
+
+}
+
+aside#bar .myform{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.hi input[type="text"] , .myform textarea{
+    padding: 5px;
+    width: 85%;
+    border-radius: 2px;
+    border:solid 2px black;
+
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.button:hover{
+    
+
+    background-color: aliceblue;
+    color: black;
+}
+

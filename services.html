@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags are usually data about data this viewport wala lets us give the browser the instructions on how to control pages dimensions
+    and this width wala sets the width of the page to follow the width of the device its open upon vimp these two are -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="affordable and pro web design">
+    <meta name="keywords" content="web design , affordable web design, pro design">
+    <!-- sets the width of the page to follow the screen-width of the device (which will vary depending on the device). -->
+      <!--This gives the browser instructions on how to control the page's dimensions and scaling  -->
+    <title>Acme Web Design | Services</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Now isme we will be using semantic---- tags that define the meaning of the content they contain.  eg header, footer, nav, main, sidebar etc-->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Acme</span> web design</h1>
+                <!-- remember that span is use for inline elements -->
+            </div>
+        
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="#">Services</a></li>
+                    <!-- ye a wala is used to make it a link and to link other pages to it -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="button1" ><b>Subscribe</b> </button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main">
+    <div class="container">
+    <article id="col">
+    <h2><u>Services</u></h2>
+
+    <ul id="yo">
+        <li>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam maxime animi cum, optio voluptate quis voluptatem nobis eius consequatur aut error nihil nulla ullam! Consectetur cupiditate deserunt in error.<br>
+             Pricing: $1000</p>
+        </li>
+
+        <li>
+            <h3>Website Maintainence</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam maxime animi cum, optio voluptate quis voluptatem nobis eius consequatur aut error nihil nulla ullam! Consectetur cupiditate deserunt in error.<br>
+            Pricing: $100</p>
+        </li>
+
+        <li>
+            <h3>Web Hosting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam maxime animi cum, optio voluptate quis voluptatem nobis eius consequatur aut error nihil nulla ullam! Consectetur cupiditate deserunt in error.<br>
+            Pricing: $10</p>
+        </li>
+
+    </ul>
+    </article>            
+   
+
+    <aside id="bar">
+        <div class="dark">
+        <h3>Get a Quote</h3>
+    <form class="myform">
+        <div class="hi">
+        <label>Name</label><br>
+        <input type="text" placeholder="Name">
+    </div>
+
+        <div class="hi">
+        <br><label>Email</label><br>
+        <input type="text" placeholder="Email address">
+    </div>
+
+        <div class="hi">
+        <br><label>Message</label><br>
+        <textarea placeholder="Message"></textarea>
+    </div>
+    <br><button class="button" type="submit">Send</button>
+
+    </form>
+</div>
+    </aside>
+
+
+</div>
+</section>
+
+    <footer id="foot">
+        <h3>Copyright &copy; 2023 My website</h3>
+    </footer>
+
+</body>
+</html>
