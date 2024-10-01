@@ -1,7 +1,7 @@
 # Acme Web Design
 Welcome to the Acme Web Design project! This website showcases a multi-page layout with various features, demonstrating professional web design techniques.
 
-##🌟 Live Demo
+## 🌟 Live Demo
 Check out the live version (https://adityagupta84.github.io/Web-Design-Demo-Website/)
 
 ## 🔗 Project Overview
@@ -14,11 +14,10 @@ Home Page (index.html): Features a welcoming introduction with a showcase banner
 About Page (about.html): Provides detailed information about the company and its mission, accompanied by a sidebar describing what the company does.
 Services Page (services.html): Lists the services offered, with a form to request a quote for any of the services.
 
-## 💡 Features
-Responsive Layout: The website adapts to various screen sizes, ensuring a great user experience on all devices.
-Semantic HTML: Utilizes semantic elements like <header>, <nav>, <section>, <footer>, and more for better readability and SEO.
-Subscription Form: A simple newsletter subscription form where visitors can input their email addresses.
-Contact Form: Allows users to request a quote for services.
+## 🎨 Features
+Responsive Design: The website adjusts seamlessly to different screen sizes, ensuring an optimal user experience on desktops, tablets, and mobile devices.
+Semantic HTML: Utilizes HTML5 semantic elements like <header>, <footer>, <section>, <article>, and <aside> to create a well-structured and accessible website.
+CSS Styling: The site features an external CSS stylesheet that enhances the overall design with consistent styling, custom buttons, and layout adjustments.
 
 ## 🎨 Technologies Used
 HTML5: For creating the structure and content of the pages.
@@ -39,8 +38,7 @@ Copy code
 cd your-repo-name
 Open index.html in your browser to view the website.
 
-## 🤔 Why This Project?
-I created this project to practice my JavaScript skills and work with DOM manipulation and local storage. It’s a fun way to learn and has become a handy little tool for daily productivity!
+
 
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests if you'd like to enhance the project.
