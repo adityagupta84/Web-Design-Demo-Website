@@ -17,11 +17,13 @@ About Page (about.html): Provides detailed information about the company and its
 Services Page (services.html): Lists the services offered, with a form to request a quote for any of the services.
 
 ## 🎨 Features
-Responsive Design: The website adjusts seamlessly to different screen sizes, ensuring an optimal user experience on desktops, tablets, and mobile devices.
+Responsive Layout: The website adapts to various screen sizes, ensuring a great user experience on all devices.
 
-Semantic HTML: Utilizes HTML5 semantic elements like <header>, <footer>, <section>, <article>, and <aside> to create a well-structured and accessible website.
+Semantic HTML: Utilizes semantic elements like <header>, <nav>, <section>, <footer>, and more for better readability and SEO
 
-CSS Styling: The site features an external CSS stylesheet that enhances the overall design with consistent styling, custom buttons, and layout adjustments.
+Subscription Form: A simple newsletter subscription form where visitors can input their email addresses.
+
+Contact Form: Allows users to request a quote for services.
 
 ## 🛠️ Getting Started
 Prerequisites
@@ -32,7 +34,9 @@ Clone the repository:
 bash
 Copy code
 git clone https://github.com/adityagupta84/your-repo-name.git
+
 Navigate to the project folder:
+
 bash
 Copy code
 cd your-repo-name
