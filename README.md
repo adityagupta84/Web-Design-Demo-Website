@@ -11,17 +11,17 @@ This project consists of a simple, responsive website built using HTML and CSS. 
 The project consists of three main pages:
 
 Home Page (index.html): Features a welcoming introduction with a showcase banner, a subscription form, and sections outlining various services.
+
 About Page (about.html): Provides detailed information about the company and its mission, accompanied by a sidebar describing what the company does.
+
 Services Page (services.html): Lists the services offered, with a form to request a quote for any of the services.
 
 ## 🎨 Features
 Responsive Design: The website adjusts seamlessly to different screen sizes, ensuring an optimal user experience on desktops, tablets, and mobile devices.
-Semantic HTML: Utilizes HTML5 semantic elements like <header>, <footer>, <section>, <article>, and <aside> to create a well-structured and accessible website.
-CSS Styling: The site features an external CSS stylesheet that enhances the overall design with consistent styling, custom buttons, and layout adjustments.
 
-## 🎨 Technologies Used
-HTML5: For creating the structure and content of the pages.
-CSS3: For styling the pages and ensuring a visually appealing design.
+Semantic HTML: Utilizes HTML5 semantic elements like <header>, <footer>, <section>, <article>, and <aside> to create a well-structured and accessible website.
+
+CSS Styling: The site features an external CSS stylesheet that enhances the overall design with consistent styling, custom buttons, and layout adjustments.
 
 ## 🛠️ Getting Started
 Prerequisites
