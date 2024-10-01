@@ -5,7 +5,10 @@ Welcome to the Acme Web Design project! This website showcases a multi-page layo
 Check out the live version (https://adityagupta84.github.io/Web-Design-Demo-Website/)
 
 ## 🔗 Project Overview
-This project consists of a simple, responsive website built using HTML and CSS. It is designed to highlight the services offered by Acme Web Design and includes sections like Home, About, and Services, along with a subscription form for visitors.
+This project consists of a simple, responsive website built using HTML and CSS. 
+The website adapts to various screen sizes, ensuring a great user experience on all devices.
+A simple newsletter subscription form where visitors can input their email addresses.
+It is designed to highlight the services offered by Acme Web Design and includes sections like Home, About, and Services, along with a subscription form for visitors.
 
 ## 📄 Project Structure
 The project consists of three main pages:
@@ -15,15 +18,6 @@ Home Page (index.html): Features a welcoming introduction with a showcase banner
 About Page (about.html): Provides detailed information about the company and its mission, accompanied by a sidebar describing what the company does.
 
 Services Page (services.html): Lists the services offered, with a form to request a quote for any of the services.
-
-## 🎨 Features
-Responsive Layout: The website adapts to various screen sizes, ensuring a great user experience on all devices.
-
-Semantic HTML: Utilizes semantic elements like <header>, <nav>, <section>, <footer>, and more for better readability and SEO
-
-Subscription Form: A simple newsletter subscription form where visitors can input their email addresses.
-
-Contact Form: Allows users to request a quote for services.
 
 ## 🛠️ Getting Started
 Prerequisites
